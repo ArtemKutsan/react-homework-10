@@ -1,3 +1,10 @@
-.img {
+.wrapper {
+  background-color: #e5e5e5;
+  width: 480px;
+  padding: 2rem;
   border-radius: 2rem;
+}
+
+.img {
+  border-radius: 1rem;
 }

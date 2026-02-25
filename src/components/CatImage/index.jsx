@@ -3,10 +3,9 @@ import styles from './CatImage.module.css';
 
 function CatImage({ url }) {
   return (
-    <>
-      {/* <span>{url}</span> */}
+    <div className={styles.wrapper}>
       <img src={url} alt="Cat image" className={styles.img} />
-    </>
+    </div>
   );
 }
 
